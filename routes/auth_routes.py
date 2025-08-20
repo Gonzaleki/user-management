@@ -1,5 +1,10 @@
 from flask import Blueprint
+# Blueprint es una Class de flask, que permite dividir la app en mini apps
+# para evitar tener todo en app.py, ejemplo las rutas
 
+# Llamamos a la Class Blueprint y le pasamos dos argumentos, el primero
+# es el nombre, puede ser cualquier cosa y el segundo es la variable 
+# built_in the python para representar el nombre del modulo
 auth = Blueprint("auth", __name__)
 
 @auth.route("/signup")

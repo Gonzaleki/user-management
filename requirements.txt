@@ -1,1 +1,3 @@
+# Todo lo que este aca adentro van a ser las librerias que el proyecto
+# usa, que instalamos con el comando que esta en el README.md
 Flask==3.1.2
