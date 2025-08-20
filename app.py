@@ -9,7 +9,7 @@ def home():
 @app.route("/signin")
 def sing_in():
     print("intentando loguear")
-    return "Test"
+    return "Testing"
 
 
 if __name__ == "__main__":
